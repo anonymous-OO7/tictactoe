@@ -17,6 +17,7 @@ body{
     height: auto;
     width: auto;
     background: linear-gradient(to bottom,grey 10%,#181926 );
+
     border-radius: 20px;
     padding: 30px;
     box-shadow: inset 1px 2px 0px rgb(255 255 255 / 18%) , inset  -2px -2px 2px rgb(0 0 0 / 65%) ;
@@ -27,7 +28,6 @@ body{
 #startingPage{
     height: 220px;
     width: 400px;
-    display: none;
 }
 
 #startingPage h2,#winner h2{
@@ -103,6 +103,7 @@ display: none;
     width: 350px;
     padding: 20px;
     position: relative;
+    display: none;
 
 }
 
@@ -171,4 +172,15 @@ display: none;
     height: 100px;
     width: 100px;
     box-shadow: 2px 2px 2px rgb(255 255 255 / 28%) , -2px -2px 5px rgb(0 0 0 / 87%);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+
+}
+
+
+.boxes i{
+
+    font-size: 60px;
+    color:cyan;
 }
